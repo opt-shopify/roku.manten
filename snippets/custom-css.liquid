@@ -1,0 +1,37 @@
+<style>
+html:not(.appco_start) [data-pf-type="Layout"] > *:nth-child(n+2) img {
+    display:none !important;
+}
+
+html:not(.jsload) [data-pf-type="Layout"] > [data-pf-type="Section"]:nth-child(n+2) img {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    display:none !important;
+}
+
+html:not(.jsload) [data-pf-type="Layout"] > [data-pf-type="Section"]:nth-child(n+2) *,
+html:not(.jsload) [data-pf-type="Layout"] > [data-pf-type="Section"]:nth-child(n+2) {
+    background-image:unset !important;
+}
+
+@media(min-width:1200px){
+html:not(.jsload) .index [data-pf-type="Layout"] > [data-pf-type="Section"]:nth-child(1)  img[data-src*="HP_sozai2_1524x.jpg"],
+html:not(.jsload) .index [data-pf-type="Layout"] > [data-pf-type="Section"]:nth-child(1)  img[data-src*="HP__minimised_1524x.jpg"]{
+    aspect-ratio: 1423/420 !important;
+}
+
+ html:not(.appco_start ) .index [data-pf-type="Body"] > [data-pf-type="Layout"] > [data-pf-type="Section"]:nth-child(1) [data-pf-type="Column"] > img {
+    aspect-ratio: 1423/420;
+} 
+}
+
+img.sc-ilfuhL.fjsXRa.pf-558_.pf-image-1.pf-hide{
+    visibility: visible !important;
+}
+
+@media(max-width:767px){
+html:not(.appco_start ) .index [data-pf-type="Body"] > [data-pf-type="Layout"] > [data-pf-type="Section"]:nth-child(1) [data-pf-type="Column"] > img:nth-child(n+2) {
+    aspect-ratio: 414/122;
+}
+}
+</style>

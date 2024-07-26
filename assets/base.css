@@ -3566,3 +3566,9 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+
+/* globo css DC customize */
+.globo-form-app .panels {
+  z-index: unset !important;
+}
